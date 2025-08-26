@@ -1,0 +1,45 @@
+/* 스타일은 직접 작성하여 포트폴리오를 꾸며보세요. */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.page-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.page-card:hover {
+    background-color: #f9f9f9;
+}
+.keywords span {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #555;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+#back-btn {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#page-detail img {
+    max-width: 100%;
+    height: auto;
+}

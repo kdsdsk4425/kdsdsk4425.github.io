@@ -1,0 +1,29 @@
+{
+  "name": "kdsdsk4425.github.io",
+  "version": "1.0.0",
+  "description": "ㄱㄱ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdsdsk4425/kdsdsk4425.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdsdsk4425/kdsdsk4425.github.io/issues"
+  },
+  "homepage": "https://github.com/kdsdsk4425/kdsdsk4425.github.io#readme",
+  "dependencies": {
+    "@notionhq/client": "^4.0.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOte</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* 기존 style 태그 내용은 제거하거나 style.css로 옮겨도 됩니다. */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        #content-area {
+            margin-top: 30px;
+            display: grid; /* 그리드 레이아웃 적용 */
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* 반응형 그리드 */
+            gap: 20px; /* 카드 사이 간격 */
+        }
+        .page-card {
+            background-color: #e9f5ff;
+            border: 1px solid #cce7ff;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease-in-out;
+        }
+        .page-card:hover {
+            transform: translateY(-5px);
+        }
+        .page-card h3 {
+            color: #007bff;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .page-card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .page-card .keywords span {
+            display: inline-block;
+            background-color: #d1ecf1;
+            color: #0c5460;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        .page-card .page-type {
+            font-size: 0.85em;
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>matcha</h1>
+        <p>matcha content</p>
+
+        <div id="content-area">
+            <p></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
